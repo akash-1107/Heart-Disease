@@ -4,7 +4,7 @@ import streamlit as st
 from twilio.rest import Client
 
 # loading the saved model
-loaded_model = pickle.load(open('E:/Capstone Project/New folder/dt1.sav', 'rb'))
+loaded_model = pickle.load(open('dt1.sav', 'rb'))
 
 # Twilio credentials
 account_sid = 'AC92b4c5e80eb832845a03464f67afbb8e'
